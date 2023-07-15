@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Books Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="nav-links">
+        <span><li><h2>Awesome books</h2></li></span>
+        <li><a href="#" class="nav-link" data-section="list">List</a></li>
+        <li><a href="#" class="nav-link" data-section="add-new">Add new</a></li>
+        <li><a href="#" class="nav-link" data-section="contact">Contact</a></li>
+      </ul>
+      <div id="current-time"></div>
+    </nav>
+  </header>
+
+  <div class="container mt-4">
+    <section id="list-section">
+      <h1 class="display-4 text-center">All Awesome books</h1>
+      <table class="table table-striped mt-5 mx-auto table-bordered">
+        <tbody id="books">
+        </tbody>
+      </table>
+    </section>
+
+    <section id="add-new-section">
+      <div class="titre">
+        <h2 class="display-4 text-center">Add a new book</h2>
+      </div>
+      <form class="add-book mx-auto">
+        <input type="text" id="title" placeholder="Title">
+        <input type="text" id="author" placeholder="Author">
+        <button id="add" type="submit">Add</button>
+      </form>
+    </section>
+
+    <section id="contact-section">
+      <div class="contact">
+        <div class="cont-heading">
+          <h2>Contact Information</h2>
+        </div>
+        <div class="cont-para">
+          <p>Do you have any questions or you just want to say "Hello"?</p>
+        </div>
+        <div class="cont-list">
+          <ul>
+            <li>Our Email: macngala4@gmail.com</li>
+            <li>Our Phone Number: +237 652278121</li>
+            <li>Our Address: Yaounde-Biscuiterie Obili</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer>&copy; Copyright 2023 Awesome books</footer>
+  </div>
+
+
+  <script src="script.js"> </script>
+</body>
+</html>
