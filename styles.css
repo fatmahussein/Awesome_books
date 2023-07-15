@@ -1,0 +1,204 @@
+/* styles.css */
+
+.container-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .store {
+    display: none;
+  }
+  
+  .add-book {
+    width: 100%;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+  }
+  
+  input {
+    width: 25%;
+  }
+  
+  .add-book input[type="text"],
+  #add {
+    margin-top: 0.5rem;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 80px;
+    align-items: center;
+    margin-bottom: 15px;
+    border: 2px solid black;
+  }
+  
+  .nav-links li,
+  .nav-links li a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 19px;
+  }
+  
+  .nav-links li a {
+    padding-right: 25px;
+    border-right: 2px solid black;
+    margin-right: -2px;
+  }
+  
+  .nav-links li a:hover {
+    color: rgb(247, 185, 36);
+    text-decoration: underline;
+  }
+  
+  .nav-links span li {
+    border: 1px solid white;
+  }
+  
+  #current-time {
+    margin-left: 84%;
+    width: 25%;
+  }
+  
+  header {
+    margin-left: 10px;
+    padding: 0 10px 0 10px;
+  }
+  
+  .nav-links span {
+    margin-right: 400px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+  }
+  
+  .table th,
+  .table td {
+    padding: 5px;
+  }
+  
+  .table-bordered th,
+  .table-bordered td {
+    border: 1px solid #ddd;
+  }
+  
+  .mt-4 {
+    margin-top: 0;
+  }
+  
+  .mt-5 {
+    margin-top: 1.25rem;
+  }
+  
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .line {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  /* Additional styles for remove button */
+  .remove {
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    width: 20vw;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+  
+  /* Custom styling for book list */
+  #books {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  
+  #books tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  #books tr:nth-child(even) {
+    background-color: #fff;
+  }
+  
+  /* style2.css */
+  
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  footer {
+    margin-bottom: 0;
+    text-align: center;
+    margin-top: 15%;
+    border: 2px solid;
+    padding: 8px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .cont-para p,
+  .cont-heading h2,
+  .cont-list ul li {
+    font-size: 20px;
+  }
+  
+  #books > li {
+    text-align: left;
+  }
+  
+  .contact-section {
+    display: block;
+    width: 77%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #list-section {
+    display: block;
+    padding: 37px;
+  }
+  
+  #add-new-section {
+    display: block;
+    padding: 10px;
+  }
+  
+  #contact-section {
+    display: block;
+    margin: -20px;
+  }
+  
